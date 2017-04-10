@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "IMDb Search",
+  "short_name": "IMDb Search",
+  "description": "Quickly search for selected text on IMBd, anywhere you are",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus",
+    "tabs"],
+  "icons": {
+    "16": "assets/imdb-icon128x128.png"
+  },
+  "background": {
+    "scripts": ["main.js"]
+  }
+}
